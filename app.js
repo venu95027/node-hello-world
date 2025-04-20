@@ -7,7 +7,7 @@ const port = 3000; // Changed from 8080 to 3000
 const host = '0.0.0.0';
 
 app.get('/', (req, res) => {
-  res.send('Hello World from IBM Cloud Essentials!');
+  res.send('Hello World from Venu Talluri!');
 });
 
 app.listen(port, host);
