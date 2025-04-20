@@ -12,6 +12,10 @@
   "scripts": {
     "start": "node app.js"
   },
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"No tests defined\" && exit 0"
+  }, 
   "dependencies": {
     "express": "^4.17.1"
   }
