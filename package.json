@@ -2,15 +2,12 @@
   "name": "node-hello-world-minimal",
   "version": "1.0.0",
   "description": "Node.js minimal example",
-  "author": "Steve Martinelli <s.martinelli@gmail.com>",
+  "author": "Venu Talluri <vtalluri@regis.edu>",
   "main": "app.js",
   "license": "Apache-2.0",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/IBM/node-hello-world-minimal.git"
-  },
-  "scripts": {
-    "start": "node app.js"
+    "type": "git",
+    "url": "https://github.com/venu95027/node-hello-world.git"
   },
   "scripts": {
     "start": "node app.js",
@@ -18,5 +15,10 @@
   },
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "mocha-junit-reporter": "^2.0.0"
   }
 }
+
