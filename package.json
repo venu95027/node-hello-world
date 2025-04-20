@@ -14,8 +14,8 @@
   },
   "scripts": {
     "start": "node app.js",
-    "test": "echo \"No tests defined\" && exit 0"
-  }, 
+    "test": "mocha --reporter mocha-junit-reporter --reporter-options mochaFile=test-results.xml"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
